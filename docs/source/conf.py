@@ -13,9 +13,9 @@ sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "pytemplate"
-project_copyright = "2023, Author"
-author = "Author"
+project = "grid1q"
+project_copyright = "2023, Nathan Fitzpatrick"
+author = "Nathan Fitzpatrick"
 release = "0.0.1"
 
 # -- General configuration ---------------------------------------------------

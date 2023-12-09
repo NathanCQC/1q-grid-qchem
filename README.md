@@ -1,13 +1,13 @@
-# pytemplate
+# grid1q
 
-This is a Python 3.11 app called pytemplate. The project includes Docker, Pyright, Ruff, GitHub Actions, Black, pre-commit, and Sphinx.
+This is a Python 3.11 app called grid1q. The project includes Docker, Pyright, Ruff, GitHub Actions, Black, pre-commit, and Sphinx.
 
 ## Project Structure
 
 The project structure is as follows:
 
 ```sh
-pytemplate
+grid1q
 ├── .dockerignore
 ├── .github
 │   └── workflows
@@ -23,7 +23,7 @@ pytemplate
 │       ├── conf.py
 │       └── index.rst
 ├── pyproject.toml
-├── pytemplate
+├── grid1q
 │   ├── __init__.py
 │   ├── main.py
 │   └── utils.py
@@ -34,7 +34,7 @@ pytemplate
     └── test_utils.py
 ```
 
-The source code is located in the `pytemplate` folder, which contains the `__init__.py`, `main.py`, and `utils.py` files. The tests are located in the `tests` folder, which contains the `test_main.py` and `test_utils.py` files.
+The source code is located in the `grid1q` folder, which contains the `__init__.py`, `main.py`, and `utils.py` files. The tests are located in the `tests` folder, which contains the `test_main.py` and `test_utils.py` files.
 
 The project uses toml for configuration instead of `setup.py`. The configuration file is located in `pyproject.toml`.
 
@@ -48,7 +48,7 @@ The project includes GitHub Actions for continuous integration, with the configu
 
 ## Usage Notes
 
-[Replace](https://github.com/your-tools/ruplacer) all mentions of "pytemplate" to your own project's name.
+[Replace](https://github.com/your-tools/ruplacer) all mentions of "grid1q" to your own project's name.
 
 ## Installation
 

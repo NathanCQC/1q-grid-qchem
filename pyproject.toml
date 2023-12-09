@@ -3,12 +3,12 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pytemplate"
+name = "grid1q"
 version = "0.0.1"
 description = "A python library"
 readme = "README.md"
 requires-python = ">=3.11"
-authors = [{name = "Author", email = "author@email.com" }]
+authors = [{name = "Nathan Fitzpatrick", email = "nathan.fitzpatrick@quantinumm.com" }]
 
 [tool.setuptools.packages.find]
 where = ["."]
@@ -18,7 +18,7 @@ Repository = "https://github.com/CQCL/pytemplate.git"
 
 # See https://microsoft.github.io/pyright/#/getting-started
 [tool.pyright]
-include = ["pytemplate","tests"]
+include = ["grid1q","tests"]
 ignore = ["**/*.ipynb"]
 pythonVersion = "3.11"
 typeCheckingMode = "strict"

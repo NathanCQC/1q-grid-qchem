@@ -1,7 +1,7 @@
 FROM python:3.11-slim-buster
 
-# Set the working directory to /pytemplate
-WORKDIR /pytemplate
+# Set the working directory to /grid1q
+WORKDIR /grid1q
 
 # Copy the pyproject.toml and requirements.txt files to the container
 COPY . .

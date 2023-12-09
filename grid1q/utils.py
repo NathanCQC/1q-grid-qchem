@@ -1,4 +1,4 @@
-"""Utility functions for the pytemplate package."""
+"""Utility functions for the grid1q package."""
 
 
 def add_numbers(a: int, b: int) -> int:

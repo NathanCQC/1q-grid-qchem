@@ -1,6 +1,6 @@
-"""Tests for pytemplate.main module."""
+"""Tests for grid1q.main module."""
 
-from pytemplate.main import hello_world
+from grid1q.main import hello_world
 
 
 def test_hello_world():

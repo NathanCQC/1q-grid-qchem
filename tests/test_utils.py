@@ -1,6 +1,6 @@
-"""Tests for pytemplate.utils."""
+"""Tests for grid1q.utils."""
 
-from pytemplate.utils import add_numbers
+from grid1q.utils import add_numbers
 
 
 def test_add():

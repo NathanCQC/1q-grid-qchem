@@ -13,7 +13,7 @@ lint:
 	pre-commit run --all-files
 
 docs:
-	sphinx-apidoc -f -o docs/source/ pytemplate
+	sphinx-apidoc -f -o docs/source/ grid1q
 	sphinx-build -M html docs/source/ docs/build/
 
 clean:
