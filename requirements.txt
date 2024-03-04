@@ -1,5 +1,5 @@
 black==23.11.0
-build==1.0.3
+build==1.1.1
 pre-commit==3.5.0
 pyright==1.1.338
 pytest==7.4.3
