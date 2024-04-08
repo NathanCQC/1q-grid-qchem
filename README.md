@@ -1,6 +1,8 @@
 # grid1q
 
-This is a Python 3.12 app called grid1q. The project includes Docker, Pyright, Ruff, GitHub Actions, Black, pre-commit, and Sphinx.
+This is a Python 3.12 app called grid1q. It's purpose is to understand how first quantised quantum chemistry calculations are performed and to benchmark simple quantum computing algorithms against classical algorithms.
+
+The project includes Pyright, Ruff, GitHub Actions, Black, pre-commit, and Sphinx.
 
 ## Project Structure
 
@@ -37,8 +39,6 @@ grid1q
 The source code is located in the `grid1q` folder, which contains the `__init__.py`, `main.py`, and `utils.py` files. The tests are located in the `tests` folder, which contains the `test_main.py` and `test_utils.py` files.
 
 The project uses toml for configuration instead of `setup.py`. The configuration file is located in `pyproject.toml`.
-
-The project includes Docker, with a `Dockerfile` located in the root directory. The `.dockerignore` file is also located in the root directory.
 
 The project includes Pyright for static type checking, pre-commit for code formatting, Black for code formatting and Ruff for linting. The configuration for these tools is located in the `.pre-commit-config.yaml` and `ruff.toml` files.
 
