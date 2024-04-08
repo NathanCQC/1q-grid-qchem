@@ -18,6 +18,8 @@ Repository = "https://github.com/CQCL/pytemplate.git"
 
 # See https://microsoft.github.io/pyright/#/getting-started
 [tool.pyright]
+venvPath = "."
+venv = ".venv"
 include = ["grid1q","tests"]
 ignore = ["**/*.ipynb"]
 pythonVersion = "3.11"
