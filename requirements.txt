@@ -5,3 +5,7 @@ pyright==1.1.338
 pytest==7.4.3
 sphinx==7.2.6
 wheel==0.42.0
+numpy
+matplotlib
+pandas
+scipy
