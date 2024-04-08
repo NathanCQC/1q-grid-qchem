@@ -1,6 +1,6 @@
 # grid1q
 
-This is a Python 3.11 app called grid1q. The project includes Docker, Pyright, Ruff, GitHub Actions, Black, pre-commit, and Sphinx.
+This is a Python 3.12 app called grid1q. The project includes Docker, Pyright, Ruff, GitHub Actions, Black, pre-commit, and Sphinx.
 
 ## Project Structure
 
@@ -46,16 +46,12 @@ The project includes Sphinx for documentation, with the documentation located in
 
 The project includes GitHub Actions for continuous integration, with the configuration located in the `.github/workflows/python-app.yml` file.
 
-## Usage Notes
-
-[Replace](https://github.com/your-tools/ruplacer) all mentions of "grid1q" to your own project's name.
-
 ## Installation
 
 To install the project, clone the repository and run:
 
 ```sh
-python -m venv .venv
+python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -U pip setuptools
 pip install -r requirements.txt
